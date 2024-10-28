@@ -1,0 +1,20 @@
+.patient-cardbox {
+    position: relative;
+    margin-top: .625rem;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 3px 6px #00000029;
+    font-size: .938rem;
+    font-weight: 500;
+    user-select: none;
+    padding: 1rem; /* 추가적인 패딩을 주어 내용이 더 잘 보이도록 함 */
+    cursor: pointer; /* 클릭 가능함을 나타내기 위해 커서 변경 */
+}
+
+.patient-cardbox h3 {
+    margin: 0; /* 기본 마진 제거 */
+}
+
+.patient-cardbox p {
+    margin: 0.5rem 0 0; /* 내용의 마진 설정 */
+}
