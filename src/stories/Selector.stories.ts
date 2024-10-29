@@ -11,7 +11,7 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
-    options: { control: 'array' },
+    options: { control: { type: 'array' } },
     onChange: { action: 'changed' },
   },
   args: { onChange: fn() },
