@@ -10,3 +10,6 @@ npx sb init
 
 ## 실행
 npm run storybook
+
+## 스토리북 빌드
+npm run build-storybook
